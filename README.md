@@ -1,8 +1,5 @@
 # Qure AI — Hybrid Quantum ML Platform for Early Disease Detection (SIH26139)
 
-> **Naming note**: "Qure.ai" is an existing, well-known Indian AI-radiology company. This project
-> name was chosen by the team; consider a small variation (e.g. "QuroAI", "Qubit Health") before
-> a public/competition submission to avoid confusion with that unrelated real company.
 
 A full-stack platform: React frontend → FastAPI backend → hybrid quantum-classical models (Qiskit)
 covering six disease modules (Heart, Cardiovascular, Diabetes, Kidney, Cancer, Brain Tumor) plus
@@ -373,7 +370,7 @@ real trials, saved in `backend/models/heart/optuna_study.db` and `optuna_trials.
 
 
 
-## 9. Honest scope notes (say this in your report/demo too — it reads as rigor, not weakness)
+## 9. Honest scope note
 
 - **Cardiovascular** intentionally reuses the Heart Disease dataset rather than fabricating a
   second one, since coronary/cardiovascular disease and "heart disease" in the UCI Cleveland
